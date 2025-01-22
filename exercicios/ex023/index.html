@@ -12,31 +12,29 @@
 
         table {
             width: 400px;
-        }
-
-        tr.linha {
-            background-color: gray;
+            height: 400px;
+            border-collapse: collapse;
         }
 
         td {
             border: 1px solid black;
-        }
-
-        td.dado {
-            background-color: yellow;
+            padding: 8px;
+            text-align: center; /* Alinhamento horizontal */
+            vertical-align: middle;
         }
     </style>
+
 </head>
 
 <body>
     <h1>Minha primeira tabela</h1>
-<!-- 
-HIERARQUIA DE TABELAS
-TABLE = tabelas
-TABLE ROW = linha de tabela
-TABELA HEADER = cabeçalho de tabela
-TABELA DATA = dado de tabela
--->
+    <!-- 
+    HIERARQUIA DE TABELAS
+        TABLE = tabelas
+            TABLE ROW = linha de tabela
+                TABELA HEADER = cabeçalho de tabela
+                TABELA DATA = dado de tabela
+    -->
     <table>
 
         <tr>
@@ -44,14 +42,14 @@ TABELA DATA = dado de tabela
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr class="linha">
+        <tr>
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
         <tr>
             <td>A3</td>
-            <td class="dado">B3</td>
+            <td>B3</td>
             <td>C3</td>
         </tr>
         <tr>
