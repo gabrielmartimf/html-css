@@ -13,6 +13,59 @@
 }
 
 
+body {
+    font-family: 'Yugioh', serif;
+    background-image: url(/projetos/imagens/fundo-site.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+}
+
+.cartao .nome {
+    background-color: blueviolet;
+    font-size: 13px;
+    padding: 5px;
+    text-transform: uppercase;
+    background: linear-gradient(circle #f3e2c8, #e4cfa5, #c4a57a);
+}
+
+
+.cabecalho {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho .titulo {
+    color: rgb(197, 195, 195);
+}
+
+.cartao {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    
+}
+
+.cartao.selecionado {
+    opacity: 1;
+}
+
+.lista-personagens {
+    background-color: blue;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    
+}
+
 ul {
     list-style: none;
 }
