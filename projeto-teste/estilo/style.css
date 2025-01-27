@@ -3,10 +3,28 @@ body {
     background-color: #CC7722;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 :root {
-    --cor-fundo: (#ffff);
+    --cor-fundo: (#CC7722);
+    --cor-cabecalho: (#332F2B);
 }
 
 header {
-    background-color: ;
+    background-color: #332F2B;
+    text-align: center;
+}
+
+nav ul {
+    text-align: justify;
+    display: flex;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #CC7722;
 }
